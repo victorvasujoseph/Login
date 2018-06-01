@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/html" href="css/font-awsome.min.css">
+    <title>ParkIt</title>
+</head>
+<body id="home">
+
+     <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+       <div class="container">
+         <a href="index.html" class="navbar-brand">
+           <img src="img/vector_circle_p_logo.png" width="50" height="50" alt=""><h4 class="d-inline align-middle">ParkIt</h4>
+         </a>
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a href="#home" class="nav-link">Home</a>
+             </li>
+             <li class="nav-item">
+               <a href="#about" class="nav-link">About</a>
+             </li>
+             <li class="nav-item">
+               <a href="#login-icons" class="nav-link">Login</a>
+             </li>
+             <li class="nav-item">
+               <a href="#contact" class="nav-link">Contact</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+
+     <!-- SHOWCASE SLIDER -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3">Heading One</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequuntur architecto eius magni nobis nulla eaque. Deserunt sunt, distinctio quos.</p>
+                <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+                <h1 class="display-3">Heading Two</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequuntur architecto eius magni nobis nulla eaque. Deserunt sunt, distinctio quos.</p>
+                <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3">Heading Three</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequuntur architecto eius magni nobis nulla eaque. Deserunt sunt, distinctio quos.</p>
+                <a href="#" class="btn btn-success btn-lg">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- LOGIN ICON SECTION -->
+     <section id="login-icons" class="py-5">
+       <div class="container">
+         <div class="row">
+           <div class="btn col-md-4 mb-4 text-center" data-toggle="collapse" data-target="#collapse-google-login">
+             <img src="img/google.png" width="30" height="30" alt="">
+             <h5>Google</h5>
+             <p>Login with Google</p>
+           </div>
+           <div class=" btn col-md-4 mb-4 text-center" data-toggle="collapse" data-target="#collapse-facebook-login">
+             <img src="img/fb.png" width="30" height="30" alt="">
+             <h5>Facebook</h5>
+             <p>Login With Facebook</p>
+           </div>
+           <div class="btn col-md-4 mb-4 text-center">
+             <img src="img/emailLogin.png" width="30" height="30" alt="">
+             <h5>E-Mail</h5>
+             <p>Login with email-ID</p>
+           </div>
+         </div>
+       </div>
+
+      <div class="collapse mb-5" id="collapse-google-login">
+        <div class="card">
+        <div class="card-body">
+          <div class="row">
+          <div class="col-md-6 text-center">
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequuntur architecto eius magni nobis nulla eaque. Deserunt sunt, distinctio quos.</p>
+           </div>
+          <div class="col-md-4">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Google ID">
+                <span class="input-group-addon">@gmail.com</span>
+              </div>
+              <br>
+              <div>
+                <input type="text" class="form-control" placeholder="Password">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <button class="btn btn-primary" type="button">Login</button>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collapse mb-5" id="collapse-facebook-login">
+      <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-4">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Facebook ID">
+                <span class="input-group-addon">@facebook.com</span>
+              </div>
+              <br>
+              <div>
+                <input type="text" class="form-control" placeholder="Password">
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div>
+                <button class="btn btn-primary" type="button">Login</button>
+              </div>
+            </div>
+        <div class="col-md-6 text-center">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequuntur architecto eius magni nobis nulla eaque. Deserunt sunt, distinctio quos.</p>
+         </div>
+
+
+         </div>
+      </div>
+    </div>
+  </div>
+
+     </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+</body>
+</html>

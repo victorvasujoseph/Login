@@ -1,0 +1,41 @@
+$bg-color: black;
+$theme-color: #563d7c;
+$font-color: white;
+$primary: #3292a6;
+
+.navbar {
+  box-shadow: 2px 2px 5px $theme-color;
+  opacity: 0.9;
+  background: #fff;
+
+  .nav-item {
+    font-size: 1.2rem;
+    padding-right: 20px;
+  }
+
+  .nav-item.active {
+    border-left: $theme-color 4px solid;
+  }
+}
+.carousel-item{
+  height:650px;
+}
+
+.carousel-image-1{
+  background:url('../img/image1.jpg');
+  background-size:cover;
+}
+
+.carousel-image-2{
+  background:url('../img/image2.jpg');
+  background-size:cover;
+}
+
+.carousel-image-3{
+  background:url('../img/image3.jpg');
+  background-size:cover;
+}
+
+body {
+  margin-top: 110px;
+}
